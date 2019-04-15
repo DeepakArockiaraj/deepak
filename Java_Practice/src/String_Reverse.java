@@ -8,8 +8,8 @@ public class String_Reverse {
 	 public void reverse_string()
 	 {
 		 System.out.println(input_array); 
-		 for( int i=0;i<input_array.length;i++) {
-				output_array[i]=input_array[input_array.length-i-1];
+		 for( int j=0;j<input_array.length;j++) {
+				output_array[j]=input_array[input_array.length-j-1];
 		}
 			System.out.println(output_array); 
 	 }
